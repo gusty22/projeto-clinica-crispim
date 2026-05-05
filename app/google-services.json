@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774651683755",
+    "project_id": "projeto-imepac-gustavo",
+    "storage_bucket": "projeto-imepac-gustavo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774651683755:android:34e347c46e17d846ff28ee",
+        "android_client_info": {
+          "package_name": "br.com.faculdade.imepac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATVZ_cTWU4UL14uz9wZTuT81yCBhCPpPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

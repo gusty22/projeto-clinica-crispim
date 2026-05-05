@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_degrade"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestão de Pacientes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- A ListView exibirá os pacientes cadastrados futuramente -->
+    <ListView
+        android:id="@+id/listaPacientes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnNovoPaciente"
+        style="@style/FormButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cadastrar Novo Paciente" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        style="@style/FormButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#888888"
+        android:text="Voltar ao Painel" />
+
+</LinearLayout>
